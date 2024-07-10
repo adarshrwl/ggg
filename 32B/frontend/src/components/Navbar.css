@@ -1,0 +1,59 @@
+.navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White color for the brand */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff; /* White color for the links */
+}
+
+.nav-link:hover {
+    color: #c0c0c0; /* Light gray on hover */
+}
+
+.btn-outline-danger,
+.btn-outline-success {
+    border-radius: 20px; /* Rounded corners for buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-outline-danger:hover,
+.btn-outline-success:hover {
+    color: #ffffff; /* White text on hover */
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545; /* Red background on hover */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Green background on hover */
+}
+
+.dropdown-menu {
+    background-color: #343a40; /* Dark background for dropdown */
+    border: none;
+}
+
+.dropdown-item {
+    color: #ffffff; /* White color for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #495057; /* Dark gray on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.dropdown-toggle::after {
+    color: #ffffff; /* White color for dropdown toggle icon */
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
